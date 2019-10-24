@@ -11,20 +11,11 @@ Link to Video: (coming soon)
   - [Talk #1: Mobile Patient Reported Outcomes (PROs) with FHIR](#talk-1-mobile-patient-reported-outcomes-pros-with-fhir)
   - [Talk #2:](#talk-2)
   - [Talk #3: The Modernization of the Haiti Health Information System](#talk-3-the-modernization-of-the-haiti-health-information-system)
-    - [SEDISH - Système d’Échange d’Information Sanitaire Haïtien](#sedish---syst%c3%a8me-d%c3%89change-dinformation-sanitaire-ha%c3%aftien)
-    - [IsantePlus](#isanteplus)
-  - [OpenMRS - an open-source EMR](#openmrs---an-open-source-emr)
-    - [Overview of Architecture](#overview-of-architecture)
-      - [Modularity](#modularity)
-      - [Hibernate ORM](#hibernate-orm)
-      - [Spring MVC Framework](#spring-mvc-framework)
-    - [The OpenMRS Data Model](#the-openmrs-data-model)
-  - [The OpenMRS FHIR Module](#the-openmrs-fhir-module)
-    - [Overview](#overview)
-    - [Code Study: Serving a Patient Resource](#code-study-serving-a-patient-resource)
-  - [The OpenMRS FHIR Squad](#the-openmrs-fhir-squad)
-    - [HAPI FHIR and Smile CDR](#hapi-fhir-and-smile-cdr)
-    - [Hearth](#hearth)
+      - [SEDISH - Système d’Échange d’Information Sanitaire Haïtien](#sedish---syst%c3%a8me-d%c3%89change-dinformation-sanitaire-ha%c3%aftien)
+      - [IsantePlus](#isanteplus)
+      - [OpenMRS - an open-source EMR](#openmrs---an-open-source-emr)
+      - [The OpenMRS FHIR Module](#the-openmrs-fhir-module)
+      - [The OpenMRS FHIR Squad](#the-openmrs-fhir-squad)
 ---
 ## Talk #1: Mobile Patient Reported Outcomes (PROs) with FHIR
 **[Hannah Burkhardt](https://github.com/hannahburkhardt)**
@@ -61,13 +52,13 @@ Objectives:
 - A National Data Repository for aggregate level reporting
 - Building a Community of Practice for adoption, feedback, long-term sustainability
 
-### SEDISH - Système d’Échange d’Information Sanitaire Haïtien
+#### SEDISH - Système d’Échange d’Information Sanitaire Haïtien
 - http://www.go2itech.org/wp-content/uploads/2017/04/SOW_RFQ-SEDISH-FY19_final.pdf
 - https://github.com/SEDISH
 
-![SEDISH](sedish.png)
+![SEDISH](SEDISH.png)
 
-### IsantePlus
+#### IsantePlus
 - https://github.com/IsantePlus
 - https://talk.openmrs.org/t/notes-on-isanteplus-activity-and-push-pull-architecture-with-sedish/15128
 - https://github.com/IsantePlus/openmrs-module-isanteplus
@@ -75,7 +66,7 @@ Objectives:
 A customized distribution of the [OpenMRS Reference Application v2.5](https://wiki.openmrs.org/display/docs/Reference+Application+2.5) developed for the Haiti Health System.
 
 
-## OpenMRS - an open-source EMR
+#### OpenMRS - an open-source EMR
 ![OpenMRS Atlas - 2016](openmrs_atlas_2016.png)
 
 **Guide:** http://guide.openmrs.org/en/
@@ -86,35 +77,34 @@ A customized distribution of the [OpenMRS Reference Application v2.5](https://wi
 
 **OpenMRS Talk:** https://talk.openmrs.org/
 
-### Overview of Architecture
+**Overview of Architecture**  
 http://devmanual.openmrs.org/en/Technology/architecture.html 
 
-#### Modularity
+**Modularity**  
 ![OpenMRS Architecture](OpenMRS-architecture.png)
 
-#### Hibernate ORM
-http://devmanual.openmrs.org/en/Technology/architecture.html#hibernate
+**Hibernate ORM:** http://devmanual.openmrs.org/en/Technology/architecture.html#hibernate
 
-#### Spring MVC Framework
+**Spring MVC Framework**  
 - http://devmanual.openmrs.org/en/Technology/architecture.html#spring-mvc
 - https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html
 
-### The OpenMRS Data Model
+**The OpenMRS Data Model**
 - http://guide.openmrs.org/en/Getting%20Started/openmrs-information-model.html
 - https://wiki.openmrs.org/display/docs/Data+Model
 - http://devmanual.openmrs.org/en/Technology/dataModel.html
 
 ![Data Model - Small](openmrs_data_model_1.9.0_small.png)
 
-## The OpenMRS FHIR Module
+#### The OpenMRS FHIR Module
 - https://wiki.openmrs.org/display/projects/OpenMRS+FHIR+Module
 - Data Mappings: https://wiki.openmrs.org/display/projects/Proposed+OpenMRS+Domain+Object+to+FHIR+Resource+Mapping
 - OpenMRS Module FHIR Support: https://wiki.openmrs.org/display/projects/OpenMRS+FHIR+Module#OpenMRSFHIRModule-CurrentstatusofFHIRsupport
 
-### Overview
+**Overview**
 ![FHIR Module Architecture](fhir-module-diagram-1.png)
 
-### Code Study: Serving a Patient Resource
+**Code Study: Serving a Patient Resource**
 
 1. https://github.com/openmrs/openmrs-module-fhir/tree/master/api/src/main/java/org/openmrs/module/fhir/api
 
@@ -126,18 +116,16 @@ http://devmanual.openmrs.org/en/Technology/architecture.html#hibernate
    
 
 
-## The OpenMRS FHIR Squad 
+#### The OpenMRS FHIR Squad 
 https://talk.openmrs.org/t/welcoming-the-openmrs-fhir-squad/25068
 
-### HAPI FHIR and Smile CDR
+**HAPI FHIR and Smile CDR**
 http://hapifhir.io/
 
 ![HAPI Patterns of Use](hapi-patterns.png)
 
-### Hearth
-https://github.com/jembi/hearth
-
-https://github.com/jembi/hearth/wiki/IHE-services
-
-https://hub.docker.com/r/jembi/hearth
+**Hearth**
+- https://github.com/jembi/hearth
+- https://github.com/jembi/hearth/wiki/IHE-services
+- https://hub.docker.com/r/jembi/hearth
 

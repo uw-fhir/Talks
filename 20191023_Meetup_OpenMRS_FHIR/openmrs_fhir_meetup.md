@@ -39,7 +39,7 @@ We are developing a mobile consumer health application using FHIR intended to su
 ## Talk #3: The Modernization of the Haiti Health Information System
 **[Piotr Mankowski](https://github.com/pmanko)**
 
-Background (draft):
+**Background:**
 Haitian Ministry of health engaged the UW in 2008 to develop EMR and a basic health architecture. This architecture 
 proved to work well for over a decade, including during the earthquake crisis in 2010, and established interoperability as
 a priority for improving care and treatment programs in global health.

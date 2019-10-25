@@ -2,7 +2,7 @@
 **October 23, 2019**  
 [**Seattle on FHIR Meetup**](https://www.meetup.com/Seattle-on-FHIR/events/265698879/)  
 
-Link to Video: (coming soon)
+Link to Video: https://youtu.be/McQO6biEInw
 
 ---
 
@@ -38,6 +38,14 @@ We are developing a mobile consumer health application using FHIR intended to su
 
 ## Talk #3: The Modernization of the Haiti Health Information System
 **[Piotr Mankowski](https://github.com/pmanko)**
+
+Background (draft):
+Haitian Ministry of health engaged the UW in 2008 to develop EMR and a basic health architecture. This architecture 
+proved to work well for over a decade, including during the earthquake crisis in 2010, and established interoperability as
+a priority for improving care and treatment programs in global health.
+
+Since then, the underlying technology stack and architecture of the system have grown outdated. This project aims to modernize
+these systems, align them with modern health data standards like FHIR, leverege existing efforts in solving these usecases, and expand the data interoperability capabilities of the Health Information System. 
 
 **Useful Links**  
 https://wiki.ohie.org/display/projects/Haiti
